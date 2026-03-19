@@ -1,0 +1,49 @@
+# Binarios y objetos compilados
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.iml
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Archivos de configuración local (contraseñas, conexiones)
+appsettings.Development.json
+appsettings.Production.json
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+# Rider
+.idea/
+*.sln.iml
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Carpetas temporales
+temp/
+tmp/
