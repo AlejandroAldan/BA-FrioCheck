@@ -1,4 +1,4 @@
-using BA.Backend.Application.Auth.Commands;
+// using BA.Backend.Application.Auth.Commands;  // TODO: Descomentar cuando haya comandos en Auth
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;

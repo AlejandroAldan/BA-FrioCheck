@@ -73,7 +73,7 @@ public class JwtTokenService : IJwtTokenService
         return (new JwtSecurityTokenHandler().WriteToken(token), expiresAt);
     }
 
-    public TokenValidationResult? ValidateToken(string token)
+    public Application.Common.Interfaces.TokenValidationResult? ValidateToken(string token)
     {
         try
         {
@@ -104,7 +104,7 @@ public class JwtTokenService : IJwtTokenService
             if (userIdClaim is null || sessionIdClaim is null || tenantIdClaim is null)
                 return null;
 
-            return new TokenValidationResult
+            return new Application.Common.Interfaces.TokenValidationResult
             {
                 UserId = Guid.Parse(userIdClaim.Value),
                 SessionId = Guid.Parse(sessionIdClaim.Value),

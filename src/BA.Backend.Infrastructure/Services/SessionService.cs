@@ -1,7 +1,7 @@
 using BA.Backend.Application.Common.Interfaces;
 using BA.Backend.Infrastructure.Settings;
 using Dapper;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 
 namespace BA.Backend.Infrastructure.Services;
 
