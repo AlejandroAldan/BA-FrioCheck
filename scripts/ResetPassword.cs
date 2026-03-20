@@ -38,11 +38,11 @@ using (var context = new ApplicationDbContext(options))
         }
         else
         {
-            Console.WriteLine("❌ Usuario no encontrado");
+            Console.WriteLine(" Usuario no encontrado");
         }
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"❌ Error: {ex.Message}");
+        Console.WriteLine($" Error: {ex.Message}");
     }
 }

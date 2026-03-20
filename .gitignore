@@ -47,3 +47,5 @@ Thumbs.db
 # Carpetas temporales
 temp/
 tmp/
+
+.fake
